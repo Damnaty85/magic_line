@@ -1,4 +1,4 @@
-if(document.querySelector(".header-new__bottom ul.header__menu li.active")) {
+		if(document.querySelector(".header-new__bottom ul.header__menu li.active")) {
             const activeItem = document.querySelector(".header-new__bottom ul.header__menu li.active")
                  
             newWidth = activeItem.getBoundingClientRect().width
